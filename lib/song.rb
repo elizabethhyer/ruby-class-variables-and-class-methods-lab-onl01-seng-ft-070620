@@ -37,7 +37,9 @@ class Song
     #create new key/value pair if not
    genre_hash = {}
    @@genres.each do |names| 
-   if genre_hash.include?
+   if genre_hash.include?(names) 
+      += 1
+   end 
    end 
   end
   
