@@ -37,4 +37,4 @@ class Song
   end 
 end 
 
-Song.new
+Song.new("Tonite", "LCD Soundsystem", "Disco Punk")
