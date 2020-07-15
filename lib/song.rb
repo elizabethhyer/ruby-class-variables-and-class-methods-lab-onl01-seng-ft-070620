@@ -29,8 +29,16 @@ class Song
   end 
   
   def self.genre_count
+    #return a hash 
+    #key names are genres 
+    #values are numbers of songs
+    #check if hash contains key of particular genre
+    #increment value by one if so
+    #create new key/value pair if not
    genre_hash = {}
-   @@genres.
+   @@genres.each do |names| 
+   if  
+   end 
   end
   
   def self.artist_count
