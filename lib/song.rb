@@ -9,6 +9,7 @@ class Song
  
   def initialize
     @@song_count += 1
+    
     @@genres << genre
     @@artists << artist
   end
