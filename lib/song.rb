@@ -36,6 +36,3 @@ class Song
     
   end 
 end 
-
-x = Song.new("Tonite", "LCD Soundsystem", "Disco Punk")
-binding.pry
