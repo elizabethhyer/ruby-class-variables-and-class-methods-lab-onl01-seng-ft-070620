@@ -38,7 +38,7 @@ class Song
    genre_hash = {}
    @@genres.each do |names| 
    if genre_hash.include?(names) 
-     keys += 1
+    genre_hash[names] += 1
    end 
    end 
   end
@@ -47,3 +47,6 @@ class Song
     
   end 
 end 
+
+
+shipping_manifest["jar of molasses"] = 10
