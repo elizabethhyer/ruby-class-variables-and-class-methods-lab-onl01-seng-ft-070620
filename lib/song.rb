@@ -37,4 +37,4 @@ class Song
   end 
 end 
 
-Song.new("Tonite", "LCD Soundsystem", "Disco Punk")
+x = Song.new("Tonite", "LCD Soundsystem", "Disco Punk")
