@@ -49,6 +49,3 @@ class Song
     
   end 
 end 
-
-
-shipping_manifest["jar of molasses"] = 10
