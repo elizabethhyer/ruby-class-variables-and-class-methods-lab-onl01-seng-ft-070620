@@ -12,7 +12,8 @@ class Song
   end
   
   def genres
-    @@genres
+    @@genres = []
+    
   end 
   
   def artist_count
